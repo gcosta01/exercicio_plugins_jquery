@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+form input {
+    display: block;
+    margin-bottom: 16px;
+    margin-left: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(82, 79, 79);
+    border-radius: 3px;
+    padding: 4px;
+}
+
+form label {
+    margin-left: 8px;
+}
+
+body {
+    flex-wrap: nowrap;
+}
+
+h1 {
+    text-align: center;
+    padding: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 8px 200px 32px 200px;
+    max-width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+button {
+    padding: 8px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#topo01 {
+    margin-top: 16px;
+}
